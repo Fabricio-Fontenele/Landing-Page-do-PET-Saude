@@ -4,13 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PET-Saúde</title>
-    
     <link rel="stylesheet" href="assets/CSS/style.css" />
   </head>
   <body>
-    <header>
+    <nav class="topbar" role="navigation" aria-label="Menu principal">
+      <div class="topbar-container">
+        <a href="#" class="topbar-logo" title="Início PET-Saúde">
+          <img
+            src="assets/IMG/logo.png"
+            alt="PET-Saúde: Início"
+            onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<span class=\'logo-placeholder\'>PET-Saúde</span>')"
+          />
+          <span>PET-Saúde</span>
+        </a>
+        <ul class="topbar-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#atuacao">Atuação</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#colaboracao">Colaboração</a></li>
+          <li><a href="#contato" class="topbar-cta">Contato</a></li>
+        </ul>
+        <button class="topbar-menu" aria-label="Abrir menu">&#9776;</button>
+      </div>
+    </nav>
+    <header id="inicio">
       <div class="logo">
-        <img src="assets/IMG/logo.png" alt="Logo PET-Saúde" />
+        <img
+          src="assets/IMG/logo.png"
+          alt="Logo principal PET-Saúde"
+          loading="lazy"
+        />
       </div>
       <h1>
         Informação para Ação: Desenvolvimento e implantação de soluções digitais
@@ -18,7 +42,7 @@
       </h1>
     </header>
     <main>
-      <section class="sobre">
+      <section class="sobre" id="sobre">
         <h2>Sobre o Projeto</h2>
         <p>
           O projeto PET-Saúde visa auxiliar na comunicação entre as Unidades
@@ -27,7 +51,7 @@
           de saúde local.
         </p>
       </section>
-      <section class="problema">
+      <section class="problema" id="problema">
         <h2>O Problema</h2>
         <p>
           Em Parnaíba-PI, a comunicação e a gestão de dados em saúde ainda
@@ -36,7 +60,7 @@
           população.
         </p>
       </section>
-      <section class="atuacao">
+      <section class="atuacao" id="atuacao">
         <h2>Como Atuamos</h2>
         <ul>
           <li>
@@ -57,7 +81,7 @@
           </li>
         </ul>
       </section>
-      <section class="beneficios">
+      <section class="beneficios" id="beneficios">
         <h2>Benefícios</h2>
         <ul>
           <li>Fortalecimento da vigilância em saúde</li>
@@ -66,7 +90,7 @@
           <li>Apoio à tomada de decisão para profissionais e gestores</li>
         </ul>
       </section>
-      <section class="colaboracao">
+      <section class="colaboracao" id="colaboracao">
         <h2>Colaboração Multidisciplinar</h2>
         <p>
           Participação dos cursos de:<br />
@@ -75,14 +99,36 @@
           • Tecnologia em Sistemas de Computação
         </p>
       </section>
-      <section class="cta">
-        <a href="#" class="btn">Saiba Mais</a>
+      <section class="cta" id="contato">
+        <a href="mailto:contato@pet-saude.com" class="btn">Saiba Mais</a>
       </section>
     </main>
     <footer>
-      <div>Realização: [Nome da Instituição]</div>
-      <div>Contato: contato@pet-saude.com</div>
+      <div class="footer-logo">
+        <img
+          src="assets/IMG/logo.png"
+          alt="Logo PET-Saúde no rodapé"
+          loading="lazy"
+        />
+      </div>
+      <div>Realização: Universidade Estadual Do Piauí</div>
+      <div>
+        Contato:
+        <a href="mailto:contato@pet-saude.com" style="color: #43e97b"
+          >contato@pet-saude.com</a
+        >
+      </div>
       <div>Projeto PET-Saúde &copy; 2025</div>
     </footer>
+    <script src="assets/JS/main.js"></script>
+    <script>
+      document.querySelector(".topbar-menu").onclick = function () {
+        document.querySelector(".topbar-links").classList.toggle("show");
+      };
+      document.querySelectorAll(".topbar-links a").forEach((link) => {
+        link.onclick = () =>
+          document.querySelector(".topbar-links").classList.remove("show");
+      });
+    </script>
   </body>
 </html>
