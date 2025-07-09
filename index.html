@@ -6,16 +6,21 @@
     <title>
       Informação para Ação: Soluções Digitais na Atenção Primária à Saúde
     </title>
-    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Phosphor Icons CDN: https://phosphoricons.com/ -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css"
+    />
   </head>
   <body>
     <nav class="topbar" role="navigation" aria-label="Menu principal">
       <div class="topbar-container">
-        <a href="#" class="topbar-logo" aria-label="Logo PET-Saúde">
+        <a href="#hero" class="topbar-logo" aria-label="Logo PET-Saúde">
           <img
-            src="assets/IMG/logo.png"
+            src="assets/img/logo.png"
             alt="Logo PET-Saúde"
-            style="height: 44px; width: auto; display: block"
+            class="img-logo"
           />
         </a>
         <ul class="topbar-links">
@@ -23,220 +28,184 @@
           <li><a href="#problema">Problema</a></li>
           <li><a href="#atuacao">Como Atuamos</a></li>
           <li><a href="#beneficios">Benefícios</a></li>
-          <li><a href="#parceiros">Colaboração</a></li>
+          <li><a href="#colaboracao">Colaboração</a></li>
           <li><a href="#contato" class="topbar-cta">Contato</a></li>
         </ul>
         <button class="topbar-menu" aria-label="Abrir menu">&#9776;</button>
       </div>
     </nav>
 
-    <section class="section hero-section">
+    <section class="hero-section" id="hero">
       <div class="hero-bg"></div>
       <div class="container hero-content">
-        <img src="assets/IMG/logo.png" class="hero-logo" alt="Logo PET-Saúde" />
+        <img src="assets/img/logo.png" alt="Logo PET-Saúde" class="hero-logo" />
         <h1>
           Informação para Ação:<br />
           Desenvolvimento e implantação de soluções digitais para otimizar a
           comunicação e gestão da Atenção Primária à Saúde
         </h1>
-        <p class="hero-subtitle">
-          Inovação tecnológica para conectar Unidades Básicas, profissionais e a
-          população de Parnaíba-PI.<br />
-          <span class="hero-highlight"
-            >Transformando dados em cuidado e ação em saúde.</span
-          >
-        </p>
-        <a href="#contato" class="btn hero-cta">Entre em Contato</a>
+        <a href="#contato" class="btn hero-cta">Saiba Mais</a>
       </div>
     </section>
 
-    <section class="section sobre-section" id="sobre">
-      <div class="bg-img bg-sobre"></div>
-      <div class="container sobre-grid">
-        <div>
+    <main>
+      <section class="section section-sobre" id="sobre">
+        <div class="container">
           <h2>Sobre o Projeto</h2>
-          <p>
-            Nosso objetivo é
-            <strong
-              >auxiliar a comunicação entre as Unidades Básicas de Saúde e a
-              população de Parnaíba-PI</strong
-            >, gerenciar dados gerados nos atendimentos do SUS e
-            <strong>otimizar a análise da situação de saúde</strong> local,
-            tornando o cuidado mais eficiente e integrado.
+          <p class="descricao">
+            Auxiliamos a comunicação entre as Unidades Básicas de Saúde e a
+            população de Parnaíba-PI, gerenciando dados gerados nos atendimentos
+            do SUS e otimizando a análise da situação de saúde para um cuidado
+            mais eficiente e integrado.
           </p>
-          <ul>
-            <li>
-              Projeto interdisciplinar com:
-              <ul>
-                <li>Bacharelado em Enfermagem</li>
-                <li>Bacharelado em Odontologia</li>
-                <li>Tecnologia em Sistemas de Computação</li>
-              </ul>
-            </li>
-            <li>Parceria com o SUS, universidades e sociedade</li>
-            <li>Foco em Atenção Primária à Saúde (APS)</li>
-          </ul>
         </div>
-        <div class="sobre-img"></div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section problema-section" id="problema">
-      <div class="bg-img bg-problema"></div>
-      <div class="container problema-flex">
-        <div class="problema-img"></div>
-        <div>
+      <section class="section section-problema" id="problema">
+        <div class="container">
           <h2>O Problema</h2>
           <p>
-            A <strong>fragmentação das informações</strong> e a
-            <strong>comunicação ineficiente</strong> dificultam o cuidado em
-            saúde, a gestão de dados e a tomada de decisão nas Unidades Básicas.
-            O projeto nasce da necessidade de superar esses desafios, promovendo
-            integração, agilidade e qualidade.
+            A <strong>fragmentação das informações em saúde</strong> e a
+            <strong>comunicação ineficiente</strong> dificultam o acompanhamento
+            dos indicadores e a tomada de decisão na Atenção Primária. É preciso
+            superar esses desafios para garantir um cuidado mais integrado e de
+            qualidade.
           </p>
-          <div class="problema-pontos">
-            <div>
-              <h4>Desafios Atuais</h4>
-              <ul>
-                <li>Fragmentação de dados de saúde</li>
-                <li>Comunicação limitada entre UBS e população</li>
-                <li>Dificuldade na análise dos principais indicadores</li>
-                <li>
-                  Profissionais com acesso restrito a informações integradas
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4>Impacto</h4>
-              <ul>
-                <li>Prejuízo à prevenção e controle</li>
-                <li>Análises e decisões menos assertivas</li>
-                <li>Perda de oportunidades de promoção à saúde</li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section atuacao-section" id="atuacao">
-      <div class="bg-img bg-atuacao"></div>
-      <div class="container atuacao-grid">
-        <div>
+      <section class="section section-como" id="atuacao">
+        <div class="container">
           <h2>Como Atuamos</h2>
-          <ul>
-            <li>
-              <b>Plataforma Digital:</b> Desenvolvimento e implementação de
-              soluções para UBS e gestores.
-            </li>
-            <li>
-              <b>Integração de Dados:</b> Unificação de informações de
-              notificações (SINAN), doenças crônicas (e-SUS), situação vacinal e
-              atendimentos da APS.
-            </li>
-            <li>
-              <b>Dashboards Interativos:</b> Visualização de indicadores-chave,
-              gráficos dinâmicos e mapas de distribuição.
-            </li>
-            <li>
-              <b>Educação em Saúde:</b> Materiais digitais e ações educativas
-              para a comunidade e profissionais.
-            </li>
-          </ul>
-          <a href="#beneficios" class="btn btn-sm">Conheça os Benefícios</a>
-        </div>
-        <div class="atuacao-img"></div>
-      </div>
-    </section>
-
-    <section class="section beneficios-section" id="beneficios">
-      <div class="bg-img bg-beneficios"></div>
-      <div class="container">
-        <h2>Benefícios do PET-Saúde</h2>
-        <div class="cards-beneficios">
-          <div class="card-beneficio">
-            <h4>Vigilância fortalecida</h4>
-            <p>
-              Monitoramento ampliado e resposta mais ágil a problemas de saúde
-              pública.
-            </p>
-          </div>
-          <div class="card-beneficio">
-            <h4>Prevenção e controle aprimorados</h4>
-            <p>
-              Mais dados, melhores estratégias de prevenção e ações efetivas
-              para a comunidade.
-            </p>
-          </div>
-          <div class="card-beneficio">
-            <h4>Conhecimento acessível</h4>
-            <p>
-              Equipe e população informadas, democratizando o acesso à
-              informação em saúde.
-            </p>
-          </div>
-          <div class="card-beneficio">
-            <h4>Apoio a profissionais</h4>
-            <p>
-              Ferramentas digitais para decisões mais rápidas e seguras no SUS.
-            </p>
+          <div class="grid-cards">
+            <div class="card">
+              <i class="ph ph-monitor card-icon"></i>
+              <h3>Plataforma Digital</h3>
+              <p>
+                Desenvolvimento e implementação de soluções web para UBS e
+                gestores de saúde.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-link card-icon"></i>
+              <h3>Integração de Dados</h3>
+              <p>
+                Unificação de informações de notificações (SINAN), doenças
+                crônicas (e-SUS), situação vacinal e atendimentos da APS.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-chart-bar card-icon"></i>
+              <h3>Dashboards Interativos</h3>
+              <p>
+                Visualização de indicadores-chave, gráficos dinâmicos e mapas
+                para apoiar decisões.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-book-open card-icon"></i>
+              <h3>Educação em Saúde</h3>
+              <p>
+                Materiais digitais educativos e ações de educação para
+                profissionais e comunidade.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section parceiros-section" id="parceiros">
-      <div class="bg-img bg-parceiros"></div>
-      <div class="container">
-        <h2>Colaboração Multidisciplinar</h2>
-        <p>
-          Uma construção coletiva entre cursos da Universidade Estadual do Piauí
-          (UESPI):
-        </p>
-        <div class="parceiros-grid">
-          <div class="parceiro-card">
-            <div>Bacharelado em Enfermagem</div>
-          </div>
-          <div class="parceiro-card">
-            <div>Bacharelado em Odontologia</div>
-          </div>
-          <div class="parceiro-card">
-            <div>Tecnologia em Sistemas de Computação</div>
+      <section class="section section-beneficios" id="beneficios">
+        <div class="container">
+          <h2>Benefícios para a Comunidade</h2>
+          <div class="grid-cards">
+            <div class="card">
+              <i class="ph ph-heartbeat card-icon"></i>
+              <h3>Vigilância fortalecida</h3>
+              <p>
+                Monitoramento ampliado e resposta mais ágil a problemas de saúde
+                pública.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-shield-check card-icon"></i>
+              <h3>Prevenção e controle aprimorados</h3>
+              <p>
+                Dados integrados para estratégias mais eficazes na prevenção e
+                controle de doenças.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-globe-hemisphere-west card-icon"></i>
+              <h3>Democratização do conhecimento</h3>
+              <p>
+                Informação acessível a profissionais e população, promovendo
+                educação em saúde.
+              </p>
+            </div>
+            <div class="card">
+              <i class="ph ph-handshake card-icon"></i>
+              <h3>Apoio aos profissionais</h3>
+              <p>
+                Ferramentas digitais para decisões mais rápidas e seguras no
+                SUS.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section cta-section" id="contato">
+      <section class="section section-colaboracao" id="colaboracao">
+        <div class="container">
+          <h2>Colaboração Multidisciplinar</h2>
+          <p>
+            O projeto reúne cursos de graduação da Universidade Estadual do
+            Piauí (UESPI):
+          </p>
+          <div class="colab-grid">
+            <div class="colab-card">
+              <i class="ph ph-stethoscope colab-icon"></i>
+              <span>Bacharelado em Enfermagem</span>
+            </div>
+            <div class="colab-card">
+              <i class="ph ph-tooth colab-icon"></i>
+              <span>Bacharelado em Odontologia</span>
+            </div>
+            <div class="colab-card">
+              <i class="ph ph-device-mobile colab-icon"></i>
+              <span
+                >Curso Superior de Tecnologia em Sistemas de Computação</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cta" id="contato">
+        <div class="container">
+          <h2>Vamos transformar a saúde juntos?</h2>
+          <a href="#" class="btn-cta">Participe</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
       <div class="container">
-        <h2>Vamos transformar a saúde juntos?</h2>
-        <p>Entre em contato, envie sua dúvida ou participe do PET-Saúde.</p>
-        <a href="mailto:contato@pet-saude.com" class="btn btn-lg"
-          >Fale com a equipe PET-Saúde</a
-        >
-      </div>
-    </section>
-
-    <footer>
-      <img
-        src="assets/IMG/logo.png"
-        alt="Logo PET-Saúde"
-        class="footer-logo"
-        style="
-          height: 40px;
-          margin-bottom: 0.7rem;
-          background: #fff;
-          border-radius: 50%;
-          padding: 7px 13px;
-          box-shadow: 0 3px 11px #2196f324;
-        "
-      />
-      <div style="margin-top: 0.5rem">
-        Realização: Universidade Estadual do Piauí (UESPI) <br />
-        Projeto PET-Saúde &copy; 2025 &mdash; contato@pet-saude.com
+        <img
+          src="assets/img/logo.png"
+          alt="Logo PET-Saúde"
+          class="footer-logo"
+        />
+        <div class="footer-info">
+          Realização: Universidade Estadual do Piauí (UESPI) <br />
+          Projeto PET-Saúde &copy; 2025 — contato@pet-saude.com
+        </div>
       </div>
     </footer>
 
-    <script src="assets/JS/main.js"></script>
+    <script>
+      const menuBtn = document.querySelector(".topbar-menu");
+      const links = document.querySelector(".topbar-links");
+      menuBtn.onclick = () => links.classList.toggle("show");
+    </script>
   </body>
 </html>
