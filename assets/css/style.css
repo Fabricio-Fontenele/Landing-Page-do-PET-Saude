@@ -118,17 +118,19 @@ a {
   align-items: center;
 }
 .hero-logo {
-  height: 250px;
-  margin-bottom: 1.1rem;
+  height: 180px;
+  max-width: 90vw;
+  margin-bottom: 1.4rem;
   object-fit: contain;
   background: none;
   border-radius: 0;
   box-shadow: none;
   padding: 0;
+  display: block;
 }
 .hero-content h1 {
   color: #fff;
-  font-size: 2.05rem;
+  font-size: 2.3rem;
   font-weight: 800;
   margin-bottom: 1.1rem;
   text-shadow: 0 2px 20px #2196f344;
@@ -136,8 +138,8 @@ a {
 }
 .hero-cta {
   margin-top: 1.2rem;
-  font-size: 1.08rem;
-  padding: 1rem 2.4rem;
+  font-size: 1.15rem;
+  padding: 1rem 2.8rem;
   border-radius: 32px;
   background: linear-gradient(90deg, #43e97b 60%, #2196f3 100%);
   color: #fff;
@@ -230,7 +232,7 @@ a {
 }
 .card-icon,
 .colab-icon {
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   margin-bottom: 0.6rem;
   color: #2196f3;
 }
@@ -293,41 +295,91 @@ a {
   font-size: 1rem;
 }
 .footer-logo {
-  height: 44px;
-  margin-bottom: 0.7rem;
+  height: 90px;
+  max-width: 320px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
   object-fit: contain;
   background: none;
   border-radius: 0;
   box-shadow: none;
   padding: 0;
 }
+.footer-logos-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0 0 1.1rem 0;
+  flex-wrap: wrap;
+}
+.footer-logo-mini {
+  height: 64px;
+  width: auto;
+  max-width: 130px;
+  object-fit: contain;
+  padding: 4px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  filter: grayscale(0%) brightness(1.05);
+  transition: transform 0.15s;
+}
+.footer-logo-mini.uespi {
+  height: 78px;
+  max-width: 150px;
+  padding: 2px 8px;
+}
+.footer-logo-mini:hover {
+  transform: scale(1.13);
+}
 .footer-info {
   color: #eee;
   font-size: 1rem;
-  margin-top: 0.4rem;
+  margin-top: 0.8rem;
 }
 
 @media (max-width: 900px) {
-  .topbar-container {
-    padding: 0.7rem 1rem;
+  .footer-logo {
+    height: 65px;
+    max-width: 220px;
+    margin-bottom: 1rem;
   }
-  .container {
-    padding: 0 0.5rem;
+  .footer-logo-mini {
+    height: 50px;
+    max-width: 90px;
+    padding: 3px 6px;
   }
-  .hero-logo {
-    height: 90px;
+  .footer-logo-mini.uespi {
+    height: 62px;
+    max-width: 110px;
+    padding: 2px 5px;
   }
-  .hero-content h1 {
-    font-size: 1.15rem;
+  .footer-logos-group {
+    gap: 1.1rem;
   }
-  .grid-cards,
-  .colab-grid {
+}
+@media (max-width: 600px) {
+  .footer-logo {
+    height: 44px;
+    max-width: 160px;
+    margin-bottom: 0.7rem;
+  }
+  .footer-logo-mini {
+    height: 32px;
+    max-width: 54px;
+    padding: 2px 4px;
+  }
+  .footer-logo-mini.uespi {
+    height: 38px;
+    max-width: 60px;
+    padding: 1px 3px;
+  }
+  .footer-logos-group {
     gap: 0.7rem;
-  }
-  .card,
-  .colab-card {
-    min-width: 160px;
-    max-width: 98vw;
   }
 }
 @media (max-width: 700px) {
@@ -368,6 +420,10 @@ a {
   .hero-content h1 {
     font-size: 0.97rem;
   }
+  .hero-logo {
+    height: 75px;
+    margin-bottom: 1rem;
+  }
   .section h2 {
     font-size: 1rem;
   }
@@ -378,5 +434,8 @@ a {
   .btn-cta {
     padding: 0.7rem 1.2rem;
     font-size: 1rem;
+  }
+  .footer-logo-mini {
+    height: 22px;
   }
 }
