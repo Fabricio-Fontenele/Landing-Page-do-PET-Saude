@@ -1,28 +1,61 @@
-# Landing Page PET-Saúde
+# Landing Page – Projeto PET-Saúde
 
-**Candidato:** Fabricio Fontenele
+## Autor
 
-## Descrição
+**Fabricio Fontenele**
 
-Landing page institucional desenvolvida para o projeto "PET-Saúde - Informação para Ação", com foco em apresentar objetivos, pilares e benefícios da iniciativa para Parnaíba-PI e região. O projeto integra comunicação, tecnologia e educação em saúde.
+---
 
-## Tecnologias Utilizadas
+## Descrição do Projeto
 
-- HTML5 (estrutura semântica)
-- CSS3 (estilização, responsividade, layout)
-- (Opcional) JavaScript para interatividade simples
+Esta landing page foi desenvolvida como parte da entrega do projeto PET-Saúde. O objetivo é apresentar o projeto, seus parceiros, benefícios e formas de contato de maneira clara e responsiva, com foco em acessibilidade e boa experiência do usuário.
 
-## Como Rodar Localmente
+A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e **JavaScript** puro para recursos de interação como menu responsivo, animações suaves e destaque para títulos ao rolar a página.
 
-1. Clone este repositório:
+**Principais funcionalidades:**
+- Layout moderno e responsivo (funciona em desktop e mobile)
+- Menu fixo e responsivo com animação
+- Rodapé com logos institucionais alinhados e acessíveis
+- Scroll suave para seções
+- Destaque animado nos títulos ao rolar a página
+- Favicon personalizado
+- Compatível com principais navegadores
+
+---
+
+## Link para o Repositório
+
+> [https://github.com/Fabricio-Fontenele/projeto-pet-saude](https://github.com/Fabricio-Fontenele/projeto-pet-saude)
+
+## Link para a Página Publicada 
+
+> [https://projeto-pet-saude.netlify.app](https://projeto-pet-saude.netlify.app)
+
+---
+
+## Como rodar o projeto localmente
+
+1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/Fabricio-Fontenele/pet-saude-landing.git
+   git clone https://github.com/Fabricio-Fontenele/projeto-pet-saude.git
    ```
-2. Acesse a pasta e abra `index.html` no navegador.
+2. **Acesse a pasta:**
+   ```bash
+   cd projeto-pet-saude
+   ```
+3. **Abra o arquivo `index.html`** no seu navegador (basta dar duplo clique ou usar a extensão Live Server no VS Code).
 
-## Considerações
+> Não é necessário rodar servidor ou instalar dependências – o projeto é estático (HTML, CSS e JS puro).
 
-- O layout é responsivo, priorizando experiência mobile.
-- Estrutura e organização do código seguem boas práticas.
-- Pontos de melhoria: adicionar imagens próprias, logotipo final, otimização avançada de performance.
-- Código e deploy realizados dentro do prazo de 24h.
+---
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3 (media queries, flexbox)
+- JavaScript (puro)
+
+---
+
+
+Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou entrar em contato!
