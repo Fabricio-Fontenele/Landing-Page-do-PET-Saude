@@ -8,7 +8,7 @@
 
 ## Descrição do Projeto
 
-Esta landing page foi desenvolvida como parte da entrega do projeto PET-Saúde. O objetivo é apresentar o projeto, seus parceiros, benefícios e formas de contato de maneira clara e responsiva, com foco em acessibilidade e boa experiência do usuário.
+Esta landing page foi desenvolvida para o processo de seleção do projeto PET-Saúde.
 
 A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e **JavaScript** puro para recursos de interação como menu responsivo, animações suaves e destaque para títulos ao rolar a página.
 
@@ -18,7 +18,7 @@ A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e *
 
 > [https://github.com/Fabricio-Fontenele/projeto-pet-saude](https://github.com/Fabricio-Fontenele/Landing-Page-do-PET-Saude.git)
 
-## Link para a Página Publicada 
+## Acesse a página em:
 
 > [https://projeto-pet-saude.netlify.app](https://projeto-pet-saude.netlify.app)
 
@@ -48,5 +48,3 @@ A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e *
 
 ---
 
-
-Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou entrar em contato!
