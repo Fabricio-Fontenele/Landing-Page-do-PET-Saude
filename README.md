@@ -12,15 +12,6 @@ Esta landing page foi desenvolvida como parte da entrega do projeto PET-Saúde. 
 
 A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e **JavaScript** puro para recursos de interação como menu responsivo, animações suaves e destaque para títulos ao rolar a página.
 
-**Principais funcionalidades:**
-- Layout moderno e responsivo (funciona em desktop e mobile)
-- Menu fixo e responsivo com animação
-- Rodapé com logos institucionais alinhados e acessíveis
-- Scroll suave para seções
-- Destaque animado nos títulos ao rolar a página
-- Favicon personalizado
-- Compatível com principais navegadores
-
 ---
 
 ## Link para o Repositório
