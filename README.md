@@ -25,7 +25,7 @@ A página foi construída com **HTML5**, **CSS3** (responsivo, mobile-first) e *
 
 ## Link para o Repositório
 
-> [https://github.com/Fabricio-Fontenele/projeto-pet-saude](https://github.com/Fabricio-Fontenele/projeto-pet-saude)
+> [https://github.com/Fabricio-Fontenele/projeto-pet-saude](https://github.com/Fabricio-Fontenele/Landing-Page-do-PET-Saude.git)
 
 ## Link para a Página Publicada 
 
